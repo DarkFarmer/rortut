@@ -20,6 +20,8 @@ group :assets do
 end
 
 gem 'mysql2', '~> 0.3.11', :group => :production
+gem 'pg'
+
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
